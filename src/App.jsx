@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar.jsx'
 import TextSection1 from './components/TextSection1.jsx'
+import Footer from './components/footer/Footer.jsx'
 function App() {
 
   return (
@@ -9,6 +10,9 @@ function App() {
 
      <Navbar/>
      <TextSection1/>
+     </div>
+     <div>
+      <Footer/>
      </div>
  
   
